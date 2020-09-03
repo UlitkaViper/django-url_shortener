@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Create post
+{% endblock title %}
+
+
+{% block content %}
+<div class="w-75">
+    <form action="{% url 'create-post' %}" method="POST">
+        {%csrf_token%}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-outline-success">Create</button>
+    </form>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,22 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Home page
+{% endblock title %}
+
+
+{% block content %}
+
+
+<div class="url-field">
+    <p>Paste your link</p>
+    {%csrf_token%}
+    {{ form.full_url }}
+    <button type="submit" class="btn btn-outline-success my_button">Create</button>
+
+    <div class="result-url">
+    </div>
+
+</div>
+
+
+{% endblock content %}

@@ -1,0 +1,75 @@
+
+.stroked_h{ 
+    text-decoration: line-through; 
+}
+
+.my_button{
+
+    width: 10%;
+    height: 40px;
+    max-height: 40px;
+    min-width: 80px;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.url-field{
+max-width: 50%;
+min-width: 40%;
+
+
+
+
+
+}
+.link-list{
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius:7px; 
+    padding:10px; 
+    margin-bottom:10px;
+
+}
+#textarea{
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    width: 90%;
+    resize: none;
+    height: 40px;
+    padding: 5px;
+    max-height: 200px;
+    scrollbar-track-color: #24c1ff;
+    cursor: auto;
+  
+    margin-right: 10px; 
+
+}
+
+#textarea:focus{
+    outline: none !important;
+    border-radius: 7px;
+    width: 90%;
+
+}
+
+::-webkit-scrollbar-track
+{
+
+	border-radius: 10px;
+
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+
+	background-color: rgb(126, 126, 126);
+}

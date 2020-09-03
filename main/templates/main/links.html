@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Home page
+{% endblock title %}
+
+
+{% block content %}
+<div style="display: block;">
+    {% for link in links %}
+
+    <div class="link-list">
+        <a href="http://127.0.0.1:8000/{{link.short_url}}">
+            <h3>http://127.0.0.1:8000/{{link.short_url}}</h3>
+        </a>
+
+        <h4>{{link.full_url}}</h4>
+    </div>
+
+
+
+
+    {% endfor %}
+</div>
+{% endblock content %}
